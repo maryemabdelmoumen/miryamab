@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Maryem</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="index.js">
+
+</head>
+<body>
+
+
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#myMap" class="w3-bar-item w3-button">CONTACT</a>
+  </div>
+</div>
+  
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">We specialize in<br> PIZZA</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>We specialize in<br>PIZZA</b></span>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Let's see the menu</a></p>
+  </div>
+</header>
+
+
+
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE MENU</h1>
+    <div class="w3-row">
+      <div class="w3-col s4 tablink w3-padding-large w3-hover-red" onclick="openMenu(event, 'classic Pizza')"> classic Pizza</div>
+      <div class="w3-col s4 tablink w3-padding-large w3-hover-red" onclick="openMenu(event, 'special ones')">special ones</div>
+      <div class="w3-col s4 tablink w3-padding-large w3-hover-red" onclick="openMenu(event, 'Starter')">Starter</div>
+    </div>
+
+    <div id="classic Pizza" class="menu-section">
+      <h1><b>Margherita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
+      <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+      <h1><b>4 saisons</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
+      <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil, </p>
+      <hr>
+
+      
+    </div>
+
+    <div id="special ones" class="menu-section">
+      <h1><b>napolitana </b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.00</span></h1>
+      <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p> 
+      <h1><b>Sausage </b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$22.50</span></h1>
+      <p class="w3-text-grey">Special sauce, mozzarella, parmesan, sausage</p>  
+      <h1><b>black olive</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$18.50</span></h1>
+      <p class="w3-text-grey">Special sauce, mozzarella, parmesan, black olive</p> 
+
+      <hr>
+    </div>
+
+    <div id="Starter" class="menu-section">
+      <h1><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">$9.90</span></h1>
+      <p class="w3-text-grey">Ask the waiter</p>
+      <hr>
+    </div>
+  </div>
+</div>
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
+    <p>The Pizza Restaurant was founded in Tunisia by Mme. Maryem she inherited the preparation of pizza from her grandmother since her childhood and she created her own restaurant to share with you the secret of pizza with her touches that makes our pizza take you back to another world!
+    </p>
+    <p><strong>The Chef?</strong> Mme.Miryam herself<img src="https://i.pinimg.com/originals/d3/c4/2c/d3c42c4d91c6d24b89bf8ab2175e9f75.png" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
+    <p>We are proud of our interiors.</p>
+    <img src="https://img.lemde.fr/2023/02/01/491/0/4131/2065/1342/671/60/0/4911e9f_1675262074489-1983-brigade-pierre-michel-jean.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
+    <h1><b>Opening Hours</b></h1>
+    
+    <div class="w3-row">
+      <div class="w3-col s6">
+        <p>Mon & Tue CLOSED</p>
+        <p>Wednesday 10.00 - 24.00</p>
+        <p>Thursday 10:00 - 24:00</p>
+      </div>
+      <div class="w3-col s6">
+        <p>Friday 10:00 - 12:00</p>
+        <p>Saturday 10:00 - 23:00</p>
+        <p>Sunday Closed</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
+    <p>Find us at some address at some place or call us at 05050515-122330</p>
+    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p class="w3-xxlarge"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+
+<script>
+  class TabbedMenu {
+    constructor() {
+      this.menuLinks = document.querySelectorAll(".nav-item");
+      this.menuSections = document.querySelectorAll(".menu-section");
+      this.init();
+    }
+  
+    init() {
+      this.menuLinks.forEach(link => {
+        link.addEventListener("click", () => this.openMenuSection(link));
+      });
+  
+      
+      this.menuLinks[1].click();
+    }
+  
+    openMenuSection(link) {
+      this.menuSections.forEach(section => section.style.display = "none");
+      const target = link.getAttribute("href");
+      document.querySelector(target).style.display = "block";
+    }
+  }
+  
+  document.addEventListener("DOMContentLoaded", () => {
+    const tabbedMenu = new TabbedMenu();
+  });
+  function openMenu(evt, menuName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("menu-section");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].classList.remove("w3-red");
+    }
+    document.getElementById(menuName).style.display = "block";
+    evt.currentTarget.classList.add("w3-red");
+  }
+  
+  // Set the initial menu to be displayed
+  document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
+
+  
